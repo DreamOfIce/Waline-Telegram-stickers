@@ -1,0 +1,40 @@
+{
+  "name": "waline-telegram-stickers",
+  "version": "1.0.0",
+  "description": "将telegram的自定义表情包用于Waline",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamOfIce/Waline-Telegram-stickers.git"
+  },
+  "keywords": [
+    "telegram",
+    "waline"
+  ],
+  "author": "DreamOfIce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DreamOfIce/Waline-Telegram-stickers/issues"
+  },
+  "homepage": "https://github.com/DreamOfIce/Waline-Telegram-stickers#readme",
+  "dependencies": {
+    "@seald-io/nedb": "^3.1.0",
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "koa": "^2.14.1",
+    "koa-compress": "^5.1.0",
+    "mime-types": "^2.1.35",
+    "pino": "^8.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "pino-pretty": "^9.1.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/extensions": "off",
+    "no-underscore-dangle": "off",
+    "valid-typeof": [
+      "error",
+      {
+        "requireStringLiterals": false
+      }
+    ]
+  },
+  "extends": ["eslint-config-airbnb-base", "eslint-config-prettier"]
+}
