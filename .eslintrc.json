@@ -16,5 +16,5 @@
       }
     ]
   },
-  "extends": ["eslint-config-airbnb-base", "eslint-config-prettier"]
+  "extends": ["eslint-config-airbnb-base", "prettier"]
 }

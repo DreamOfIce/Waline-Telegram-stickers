@@ -15,20 +15,23 @@
     "telegram",
     "waline"
   ],
-  "author": "DreamOfIce",
+  "author": "冰雪殇璃陌梦 <admin@dreamofice.cn> (https://www.dreamofice.cn)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DreamOfIce/Waline-Telegram-stickers/issues"
   },
   "homepage": "https://github.com/DreamOfIce/Waline-Telegram-stickers#readme",
   "dependencies": {
+    "@ffmpeg/core": "^0.11.0",
+    "@ffmpeg/ffmpeg": "^0.11.6",
     "@seald-io/nedb": "^3.1.0",
     "axios": "^1.2.1",
     "dotenv": "^16.0.3",
     "koa": "^2.14.1",
     "koa-compress": "^5.1.0",
     "mime-types": "^2.1.35",
-    "pino": "^8.8.0"
+    "pino": "^8.8.0",
+    "weak-object": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "^8.30.0",
