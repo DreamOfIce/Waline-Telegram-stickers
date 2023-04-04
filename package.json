@@ -1,7 +1,7 @@
 {
   "name": "waline-telegram-stickers",
   "version": "1.0.0",
-  "description": "将telegram的自定义表情包用于Waline",
+  "description": "将 Telegram 的自定义表情包用于 Waline",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/DreamOfIce/Waline-Telegram-stickers#readme",
   "dependencies": {
-    "@ffmpeg/core": "^0.11.0",
-    "@ffmpeg/ffmpeg": "^0.11.6",
+    "@ffmpeg.wasm/core-mt": "~0.12.0",
+    "@ffmpeg.wasm/main": "~0.12.0",
     "@seald-io/nedb": "^3.1.0",
     "axios": "^1.2.1",
     "dotenv": "^16.0.3",

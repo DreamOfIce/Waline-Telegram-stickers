@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@ffmpeg/core': ^0.11.0
-  '@ffmpeg/ffmpeg': ^0.11.6
+  '@ffmpeg.wasm/core-mt': ~0.12.0
+  '@ffmpeg.wasm/main': ~0.12.0
   '@seald-io/nedb': ^3.1.0
   axios: ^1.2.1
   dotenv: ^16.0.3
@@ -18,8 +18,8 @@ specifiers:
   weak-object: ^1.0.1
 
 dependencies:
-  '@ffmpeg/core': 0.11.0
-  '@ffmpeg/ffmpeg': 0.11.6
+  '@ffmpeg.wasm/core-mt': 0.12.0
+  '@ffmpeg.wasm/main': 0.12.0
   '@seald-io/nedb': 3.1.0
   axios: 1.2.1
   dotenv: 16.0.3
@@ -55,18 +55,17 @@ packages:
       - supports-color
     dev: true
 
-  /@ffmpeg/core/0.11.0:
-    resolution: {integrity: sha512-9Tt/+2PMpkGPXUK8n6He9G8Y+qR6qmCPSCw9iEKZxHHOvJ9BE/r0Fccj+YgDZTlyu6rXxc9x6EqCaFBIt7qzjA==}
+  /@ffmpeg.wasm/core-mt/0.12.0:
+    resolution: {integrity: sha512-M9pjL7JQX4AYl3WI8vGcPGPTz/O7JmhW8ac/fHA3oXTxoRAPwYSY/OsY1N9C0XahIM0+fxa1QSLN9Ekz8sBM/Q==}
     dev: false
 
-  /@ffmpeg/ffmpeg/0.11.6:
-    resolution: {integrity: sha512-uN8J8KDjADEavPhNva6tYO9Fj0lWs9z82swF3YXnTxWMBoFLGq3LZ6FLlIldRKEzhOBKnkVfA8UnFJuvGvNxcA==}
+  /@ffmpeg.wasm/main/0.12.0:
+    resolution: {integrity: sha512-LILAKTrU3Rga2iXLsF9jeFxe2hNQFjWlrKuXPWSdCFeQ7Kg69fO4WwjNJ0CzjOyO6qtndRQMNKqf//N4fLYUBA==}
     engines: {node: '>=12.16.1'}
     dependencies:
       is-url: 1.2.4
-      node-fetch: 2.6.7
+      node-fetch: 2.6.9
       regenerator-runtime: 0.13.11
-      resolve-url: 0.2.1
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -1303,8 +1302,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /node-fetch/2.6.7:
-    resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
+  /node-fetch/2.6.9:
+    resolution: {integrity: sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
       encoding: ^0.1.0
@@ -1558,11 +1557,6 @@ packages:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
     dev: true
-
-  /resolve-url/0.2.1:
-    resolution: {integrity: sha512-ZuF55hVUQaaczgOIwqWzkEcEidmlD/xl44x1UZnhOXcYuFN2S6+rcxpG+C1N3So0wvNI3DmJICUFfu2SxhBmvg==}
-    deprecated: https://github.com/lydell/resolve-url#deprecated
-    dev: false
 
   /resolve/1.22.1:
     resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
